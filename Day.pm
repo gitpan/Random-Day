@@ -11,7 +11,7 @@ use DateTime::Event::Random;
 use DateTime::Event::Recurrence;
 
 # Version.
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -191,7 +191,7 @@ __END__
 
 =head1 NAME
 
-Random::Day - Perl class for Czech RC identification.
+Random::Day - Class for random day generation.
 
 =head1 SYNOPSIS
 
@@ -339,6 +339,6 @@ BSD license.
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut

@@ -1,2 +1,6 @@
-0.01 (September 19, 2013)
-- First version.
+0.02 2013-09-20
+ - Fix NAME in doc.
+ - Rewrite Changes file to CPAN::Changes::SPEC format.
+
+0.01 2013-09-19
+ - First version.
