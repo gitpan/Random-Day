@@ -30,9 +30,10 @@ requires:
   DateTime: 0
   DateTime::Event::Random: 0
   DateTime::Event::Recurrence: 0
+  perl: 5.6.2
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Random-Day
   homepage: https://github.com/tupinek/Random-Day
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Random-Day
-version: 0.02
+version: 0.03

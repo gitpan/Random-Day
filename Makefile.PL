@@ -14,6 +14,7 @@ requires 'Class::Utils' => 0.03;
 requires 'DateTime' => 0;
 requires 'DateTime::Event::Random' => 0;
 requires 'DateTime::Event::Recurrence' => 0;
+requires 'perl' => '5.6.2';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Random-Day';
 resources 'homepage' => 'https://github.com/tupinek/Random-Day';
@@ -25,7 +26,7 @@ test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
 test_requires 'Test::Pod::Coverage' => 0;
 tests_recursive;
-version '0.02';
+version '0.03';
 
 # Run.
 WriteAll();
