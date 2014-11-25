@@ -79,6 +79,29 @@ ERRORS
              From Class::Utils::set_params():
                      Unknown parameter '%s'.
 
+     random_day():
+             Day cannot be a zero.
+             Day isn't number.
+
+     random_day_month():
+             Cannot create DateTime object.
+             Day cannot be a zero.
+             Day isn't number.
+
+     random_day_month_year():
+             Cannot create DateTime object.
+                     Error: %s
+             Day cannot be a zero.
+             Day isn't number.
+
+     random_month():
+             Cannot create DateTime object.
+                     Error: %s
+
+     random_month_year():
+             Cannot create DateTime object.
+                     Error: %s
+
 EXAMPLE
      # Pragmas.
      use strict;
@@ -92,7 +115,7 @@ EXAMPLE
 
      # Get date.
      my $dt = $obj->get;
- 
+
      # Print out.
      print $dt->ymd."\n";
 
@@ -101,7 +124,7 @@ EXAMPLE
 
 DEPENDENCIES
     Class::Utils, DateTime, DateTime::Event::Random,
-    DateTime::Event::Recurrence.
+    DateTime::Event::Recurrence, English, Error::Pure.
 
 SEE ALSO
     Data::Random.
@@ -115,8 +138,9 @@ AUTHOR
     <http://skim.cz>
 
 LICENSE AND COPYRIGHT
-    BSD license.
+     © Michal Špaček 2013-2014
+     BSD 2-Clause License
 
 VERSION
-    0.03
+    0.04
 
